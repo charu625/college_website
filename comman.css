@@ -1,0 +1,151 @@
+body
+{
+  /*  background-image: url("8\ Inspirational\ Dating\ Mantras\ To\ Guide\ Your\ Purpose\ For\ The\ New\ School\ Year.png");
+    margin: 0%;
+    padding: 0%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+}
+.contain
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.b1
+{
+    margin-top: 2%;
+    margin-left: 4%;
+    background-color: rgb(0, 197, 205);;
+}
+.b2
+{
+    margin-top: 1%;
+    margin-left: 1%;
+    color: black;
+}
+.b3
+{
+    margin-left: 33%;
+    margin-top: 3%;
+    color: black;
+
+}
+.slider{
+    overflow: hidden;
+    width: 100%;
+    height: 550px;
+    margin-top: 0%;
+}
+.slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+.slider figure img{
+    float: left;
+    width: 20%;
+}
+@keyframes slider{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+}
+.box5{
+    font-weight: 900;
+    float: right;
+    margin-right: 40px;
+    color: black;
+    font-size:15px;
+    font-family: monospace;
+    margin-top: 2%;
+}
+.btn
+{
+    text-align: center;
+    
+    background-color: white;
+    
+    border: none;
+    color: black;
+    text-decoration: none;
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1
+{
+    margin-top: 0%;
+    margin-left: 2%;
+    background-color: #48d1cc;
+    height: 30%;
+    width: 27%;
+    text-align: center;
+}
+.box2
+{
+    text-align: center;
+    margin-top: 0%;
+    height: 30%;
+    width: 27%;
+    margin-left: 7%;
+    background-color: #48d1cc;
+}
+.box3
+{
+    text-align: center;
+    height: 30%;
+    width: 27%;
+    margin-top: 0%;
+    background-color: #48d1cc;
+    margin-left: 7%;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:black;
+    color: rgb(85, 83, 83);
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 0%;
+}
+
+.box4
+{
+    text-align: center;
+    color: rgb(85,83,83);
+
+}
